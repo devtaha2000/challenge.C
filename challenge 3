@@ -9,7 +9,7 @@ int main()
 
 
       Mile =Km*1.609;
-      printf  ("%f celsius = %f Mile", Km,Mile);
+      printf  ("%f Km = %f Mile", Km,Mile);
 
 
     return 0;
