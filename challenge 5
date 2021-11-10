@@ -1,0 +1,29 @@
+        challenge 5
+        
+ #include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+     int fahrenheir=10, celsium ;
+
+     celsium =(fahrenheir-32)/1.8;
+     printf("%d fahrenheir= %d celsium",fahrenheir,celsium);
+     if (celsium<= 0){
+                printf("très froid");
+
+     }
+        if (celsium>= 0){
+                printf("froid");
+
+     }
+       if (celsium>20){
+                printf("chod");
+
+     }
+     if (celsium>30){
+                printf("très chod");
+
+     }
+}
+      
