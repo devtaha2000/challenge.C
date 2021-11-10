@@ -1,0 +1,22 @@
+challenge1:
+    #include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+      char Nom[10];
+
+    printf("entrer votre nom:");
+    scanf("%s",&Nom);
+       char prenom[10];
+    printf("entrer votre prenom:");
+    scanf("%s",&prenom);
+    int Age;
+    printf("entrer votre Age:");
+    scanf("%d",&Age);
+     char sex[10];
+    printf("entrer sex:");
+    scanf("%s",&sex);
+    return 0;
+}
