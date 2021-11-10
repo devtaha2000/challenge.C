@@ -5,23 +5,23 @@
 
 void main()
 {
-     int fahrenheir=10, celsium ;
+     int fahrenheir=10, celsius ;
 
-     celsium =(fahrenheir-32)/1.8;
-     printf("%d fahrenheir= %d celsium",fahrenheir,celsium);
-     if (celsium<= 0){
+     celsius =(fahrenheir-32)/1.8;
+     printf("%d fahrenheir= %d celsius",fahrenheir,celsius);
+     if (celsius<= 0){
                 printf("très froid");
 
      }
-        if (celsium>= 0){
+        if (celsius>= 0){
                 printf("froid");
 
      }
-       if (celsium>20){
+       if (celsius>20){
                 printf("chod");
 
      }
-     if (celsium>30){
+     if (celsius>30){
                 printf("très chod");
 
      }
