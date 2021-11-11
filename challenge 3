@@ -1,16 +1,17 @@
-     challenge 3
-
-#include <stdio.h>
-#include <stdlib.h>
-
+    #include <stdio.h>
+#include<stdlib.h>
+ 
 int main()
 {
-     float Km = 27,Mile;
-
-
+      
+      float  Mile;
+       float Km ;
+       
+      printf("km=");
+     
+      scanf("%f",&Km);
       Mile =Km*1.609;
-      printf  ("%f Km = %f Mile", Km,Mile);
-
+         printf("%f",Mile);
 
     return 0;
 }
