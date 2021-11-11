@@ -1,0 +1,30 @@
+#include <stdlib.h>
+#include <math.h>
+
+float didtance (int a, int b , int c ,int d){
+
+          return(sqrt(pow((c-a),2)+pow((d-b)));
+}
+
+
+ main()
+{
+
+    int xa , ya , xb , yb ;
+    printf("entrer les cordonnees : \n");
+     printf("entrer xa");
+     scanf("%f",% xa);
+    printf("entrer ya");
+     scanf("%f",% ya);
+    printf("entrer xb");
+     scanf("%f",% xb);
+     printf("entrer yb");
+     scanf("%f",% yb);
+     printf("la distance=%f",distance(xa,ya,xb,yb));
+
+
+
+
+
+
+}
