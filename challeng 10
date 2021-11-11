@@ -2,18 +2,19 @@
 #include<stdlib.h>
  main (){
         
-        int r=20 ;
-         float r, pc,s;
-         const double = pi=3,14;
+       
+         float r;
+         const double  pi=3.14;
 
-         circonfence =(2*p)*r;
+       
 
        printf("\n donner le rayon de cercle r:=");
-       scanf("%f",&s);
-       s= pi*r*r;
-       printf("\n la surface du cercle est  :=%.2f",s);
-       pc=pi*2*r;
-       printf("\n le rayon du cercle est  :=%.2f",pc);
+       scanf("%f",&r);
+           circonfence =(2*pi)*r;
+      
+       printf("\n la surface du cercle est  :=%.2f",   circonfence);
+      
+       
           
           
 
