@@ -1,0 +1,14 @@
+   challenge 6
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+{
+    int  Fahrenheit = 10 , celsius ;
+
+
+   celsius =( Fahrenheit-32)/1.8;
+
+     printf("%d Fahrenheit =  %dcelsius ",Fahrenheit,celsius);
+}
+   
