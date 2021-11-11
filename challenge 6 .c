@@ -1,4 +1,4 @@
-   challenge 6
+         //challenge 6
 #include <stdio.h>
 #include <stdlib.h>
 
