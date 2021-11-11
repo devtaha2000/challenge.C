@@ -1,29 +1,18 @@
-        challenge 5
-        
- #include <stdio.h>
-#include <stdlib.h>
-
-void main()
+    #include <stdio.h>
+#include<stdlib.h>
+ 
+int main()
 {
-     int fahrenheir=10, celsius ;
+   float Fahrenheit, Celsius;
+   printf("Fahrenheit=");
+   scanf("%f",&Fahrenheit);
+   Celsius = (Fahrenheit-32)/1.8;
+   printf("%f",Celsius);
 
-     celsius =(fahrenheir-32)/1.8;
-     printf("%d fahrenheir= %d celsius",fahrenheir,celsius);
-     if (celsius<= 0){
-                printf("très froid");
 
-     }
-        if (celsius>= 0){
-                printf("froid");
 
-     }
-       if (celsius>20){
-                printf("chod");
+    return 0;
 
-     }
-     if (celsius>30){
-                printf("très chod");
 
-     }
 }
       
